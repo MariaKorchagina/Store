@@ -33,8 +33,17 @@
   text-transform: uppercase;
   color: var(--light);
   max-width: 500px;
-  margin: 10px 0 24px 0;
+  margin: 10px 0 24px 50px;
 }
+
+.button {
+  margin-left: 50px;
+}
+
+.subtitle {
+  margin-left: 50px;
+}
+
 
 .image {
   position: relative;
@@ -44,7 +53,7 @@
 
 .image img {
   position: absolute;
-  bottom: -15%;
+  bottom: 10%;
   right: 10%;
   max-width: unset;
 }
